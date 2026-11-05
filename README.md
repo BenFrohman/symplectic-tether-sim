@@ -35,3 +35,7 @@ Benjamin Stanley Frohman (ORCID 0009-0006-7068-3718). Apache-2.0 — see LICENSE
 - **Long runs**: speed slider (×1–10), t_max of 30/60/120/∞ (default 60), and a loop checkbox. Particles are drawn wrapped into one period cell, [0,2π)³.
 - **Recording**: `NODE_PATH=<playwright node_modules> node scripts/record.js abc 0.05 30 240 /tmp/rec` writes 241 frames for t = 0..30. `scripts/render_figures.sh` encodes them into `figures/abc_nu0.05_t0-30_vortexlines.mp4` (24 s at 10 fps).
 - Verified run (ABC, ν = 0.05, t = 0..30): n = 15,625 throughout, max|∇·u| = 0, and the energy identity residual stays at about 4.5e-6 relative. E(30) = 18.52454, matching the exact value.
+
+## Films
+
+The cinematic 1080p films are in [`films/`](films/). See `films/README.md` for which parts are exact math and which are the speculative P2Q art layer.
