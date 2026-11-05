@@ -41,3 +41,8 @@ NODE_PATH=<dir with playwright or playwright-core> CHROME=/usr/bin/google-chrome
   node films/render.js abc 900 30 /tmp/fr_abc     # also: tg 600 20, p2q 750 25
 ffmpeg -framerate 30 -i /tmp/fr_abc/f%04d.jpg -c:v libx264 -pix_fmt yuv420p -crf 19 -preset slow films/01_inside_the_torus_abc.mp4
 ```
+
+## Watermarked versions
+
+The `*_watermarked.mp4` files carry a visible "Benjamin Stanley Frohman" watermark at top centre, clear of the HUD panels and disclaimers. They also have artist, author and copyright metadata. They were encoded from the same rendered frames as the originals, with the same resolution, fps and duration (H.264, yuv420p, faststart), and the originals are unchanged. Sample frames are in `stills/watermarked/`. The watermark filter is
+`drawtext=fontfile=DejaVuSans.ttf:text='Benjamin Stanley Frohman':fontsize=26:fontcolor=0xF1E2B0@0.78:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=36,scale=in_range=pc:out_range=tv,format=yuv420p`
