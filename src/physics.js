@@ -39,7 +39,7 @@ function rk4(mode,pos,n,t,dt,nu,P){const m=MODES[mode];
           c=m.vel(x+dt/2*b[0],y+dt/2*b[1],z+dt/2*b[2],t+dt/2,nu,P),d=m.vel(x+dt*c[0],y+dt*c[1],z+dt*c[2],t+dt,nu,P);
     for(let k=0;k<3;k++)pos[3*i+k]+=dt/6*(a[k]+2*b[k]+2*c[k]+d[k]);}}
 function lattice(n=25){const out=[],R=Math.PI;for(let i=0;i<n;i++)for(let j=0;j<n;j++)for(let k=0;k<n;k++){
-  const p=[i,j,k].map(q=>-R+2*R*q/(n-1));if(Math.hypot(...p)<=R)out.push(p[0]+R,p[1]+R,p[2]+R);}return new Float64Array(out);}
+  const p=[i,j,k].map(q=>-R+2*R*q/(n-1));out.push(p[0]+R,p[1]+R,p[2]+R);}return new Float64Array(out);}
 const api={MODES,gridDiag,fullDiag,rk4,lattice};
 if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.Physics=api;
 })(this);
