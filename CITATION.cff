@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Symplectic Tether Sim: exact Navier–Stokes flows on T^3 with computed energy diagnostics"
+type: software
+license: Apache-2.0
+date-released: 2026-11-05
+authors:
+  - family-names: Frohman
+    given-names: Benjamin Stanley
+    orcid: "https://orcid.org/0009-0006-7068-3718"
+    email: frohmanbenjamin@gmail.com
+keywords: [Navier-Stokes, ABC flow, Beltrami flow, Taylor-Green vortex, visualization]

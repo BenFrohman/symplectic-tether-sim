@@ -1,0 +1,1 @@
+{"name":"symplectic-tether-sim","version":"1.0.0","license":"Apache-2.0","author":"Benjamin Stanley Frohman <frohmanbenjamin@gmail.com>","scripts":{"test":"node test/physics.test.js"}}
