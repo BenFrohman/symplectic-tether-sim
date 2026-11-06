@@ -1,0 +1,73 @@
+{
+  "01_abc": {
+    "source": "../01_inside_the_torus_abc_watermarked.mp4",
+    "duration": 30.0,
+    "title": "Inside the Torus (ABC)",
+    "cues": [
+      [
+        0.4,
+        8.0,
+        "These glowing tracers follow an exact special fluid solution called A-B-C flow on a repeating box."
+      ],
+      [
+        8.2,
+        14.5,
+        "The gold lines show the fluid's spin \u2014 its vorticity."
+      ],
+      [
+        14.7,
+        22.5,
+        "Viscosity steadily reduces the kinetic energy. Watch E on the readout match the exact formula."
+      ],
+      [
+        22.7,
+        29.2,
+        "This shows one smooth special case only. It does not solve the general three-D regularity problem."
+      ]
+    ]
+  },
+  "02_tg": {
+    "source": "../02_taylor_green_cells_watermarked.mp4",
+    "duration": 20.0,
+    "title": "Taylor\u2013Green Cells",
+    "cues": [
+      [
+        0.4,
+        6.0,
+        "Here is Taylor\u2013Green flow: counter-rotating columns in a repeating box."
+      ],
+      [
+        6.2,
+        11.5,
+        "The vertical lines show spin pointing along the columns."
+      ],
+      [
+        11.7,
+        19.2,
+        "Energy decays exactly as predicted, and helicity stays zero. One exact special solution \u2014 not general regularity."
+      ]
+    ]
+  },
+  "03_p2q_art": {
+    "source": "../03_p2q_kernel_jumps_watermarked.mp4",
+    "duration": 25.0,
+    "title": "P2Q Kernel Jumps (artistic layer)",
+    "cues": [
+      [
+        0.4,
+        7.0,
+        "The particles still follow the real A-B-C fluid solution."
+      ],
+      [
+        7.2,
+        15.5,
+        "The violet arcs illustrate transitions \u2014 an artistic idea inspired by Benjamin's P-2-Q research."
+      ],
+      [
+        15.7,
+        24.0,
+        "This film does not calculate quantum-jump dynamics. The numbers on screen come from the fluid math alone."
+      ]
+    ]
+  }
+}
