@@ -7,6 +7,7 @@ date-released: 2026-11-05
 authors:
   - family-names: Frohman
     given-names: Benjamin Stanley
+    alias: "B.S. Frohman"
     orcid: "https://orcid.org/0009-0006-7068-3718"
     email: frohmanbenjamin@gmail.com
 keywords: [Navier-Stokes, ABC flow, Beltrami flow, Taylor-Green vortex, visualization]
