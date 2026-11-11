@@ -39,3 +39,9 @@ Benjamin Stanley Frohman (ORCID 0009-0006-7068-3718). Apache-2.0 — see LICENSE
 ## Films
 
 The cinematic 1080p films are in [`films/`](films/). See `films/README.md` for which parts are exact math and which are the speculative P2Q art layer.
+
+## Citation and copyright
+
+Cite this work with [`CITATION.cff`](CITATION.cff) (GitHub's "Cite this repository" button).
+
+© 2026 Benjamin Stanley Frohman.
